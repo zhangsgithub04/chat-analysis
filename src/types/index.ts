@@ -4,6 +4,7 @@ export interface Message {
   role: 'user' | 'assistant';
   timestamp: Date;
   userId: string;
+  image?: string;
 }
 
 export interface Question {
